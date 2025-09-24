@@ -23,10 +23,4 @@ git merge feature-update
 git add commands.txt
 git commit -m "Add all commands used for Quiz 01"
 git push origin main
-brew install gh
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-echo >> /Users/sherryzhang/.zprofile
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/sherryzhang/.zprofile
-eval "$(/opt/homebrew/bin/brew shellenv)"
-brew install gh
-git push origin main
+
